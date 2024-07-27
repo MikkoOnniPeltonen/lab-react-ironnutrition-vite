@@ -13,7 +13,7 @@ function FoodBox({food, deleteFood}) {
       <p>Calories: {calories}</p>
       <p>Servings {servings}</p>
       <p>
-        <b>Total calories: {servings * calories}</b>
+        <b>Total calories: {servings * calories} kcal</b>
       </p>
       <button onClick={() => {deleteFood(id)}}>Delete</button>
     </div>
